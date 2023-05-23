@@ -1,0 +1,67 @@
+
+Base fields
+
+Mapping
+INFO:Done. 1275077 were indexed in 2.5523436220999427 minutes.  Total accumulated time spent in `bulk` indexing: 10.52923862032767 minutes
+
+No mapping
+INFO:Done. 1275077 were indexed in 1.5230204484165977 minutes.  Total accumulated time spent in `bulk` indexing: 5.221311960267607 minutes
+
+All fields
+
+Mapping
+INFO:Done. 1275077 were indexed in 7.411724817499999 minutes.  Total accumulated time spent in `bulk` indexing: 20.62933673491595 minutes
+
+No mapping
+INFO:Done. 1275077 were indexed in 8.303318587850056 minutes.  Total accumulated time spent in `bulk` indexing: 21.93046365404698 minutes
+
+
+
+Refresh -1
+INFO:Done. 1275077 were indexed in 1.374737558400011 minutes.  Total accumulated time spent in `bulk` indexing: 4.523518855778093 minutes
+
+Refresh 1s
+INFO:Done. 1275077 were indexed in 1.5817382153499542 minutes.  Total accumulated time spent in `bulk` indexing: 5.279205077081254 minutes
+
+Refresh 60s
+INFO:Done. 1275077 were indexed in 1.6942540084333209 minutes.  Total accumulated time spent in `bulk` indexing: 5.656309841583061 minutes
+
+
+Batch size 400
+INFO:Done. 1275077 were indexed in 6.820215083550041 minutes.  Total accumulated time spent in `bulk` indexing: 17.222228390978124 minutes
+
+Batch size 1600
+INFO:Done. 1275077 were indexed in 6.771616038666737 minutes.  Total accumulated time spent in `bulk` indexing: 17.228180438466854 minutes
+
+Batch size 5000
+INFO:Done. 1275077 were indexed in 6.761556516749988 minutes.  Total accumulated time spent in `bulk` indexing: 16.284718472299694 minutes
+
+
+Workers 8
+INFO:Done. 1275077 were indexed in 6.9394502022500095 minutes.  Total accumulated time spent in `bulk` indexing: 18.12703769379526 minutes
+
+Workers 16
+INFO:Done. 1275077 were indexed in 12.413874451500062 minutes.  Total accumulated time spent in `bulk` indexing: 78.45592266040258 minutes
+
+Workers 32
+INFO:Done. 1275077 were indexed in 17.07530317038327 minutes.  Total accumulated time spent in `bulk` indexing: 141.5629294544513 minutes
+
+
+
+
+Level 2
+
+Base
+INFO:Finished running 10000 queries in 1.9917738092655781 minutes
+
+No fuzzy
+INFO:Finished running 10000 queries in 1.564785421884153 minutes
+
+No Functions
+INFO:Finished running 10000 queries in 1.405769611299426 minutes
+
+Only multi_match
+INFO:Finished running 10000 queries in 0.9390276188166656 minutes
+
+Only name and shortDescription
+INFO:Finished running 10000 queries in 0.5849061508333155 minutes
