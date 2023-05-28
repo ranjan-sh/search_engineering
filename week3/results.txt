@@ -1,0 +1,36 @@
+Which node was elected as cluster manager?
+node3
+
+After stopping the previous cluster manager, which node was elected the new cluster manager?
+node2
+
+Did the cluster manager node change again? (was a different node elected as cluster manager when you started the node back up?)
+No
+
+
+Indexing rate:
+3 shard, 2 replica: 18.030698719399517 minutes
+
+3 shard, 0 replica: 9.84876639401579 minutes
+
+Replica 0 -> 2
+[2023-05-28T09:14:51,275][INFO ][o.o.c.m.MetadataUpdateSettingsService] [opensearch-node2] updating number_of_replicas to [2] for indices [bbuy_products]
+[2023-05-28T09:16:45,924][INFO ][o.o.c.r.a.AllocationService] [opensearch-node2] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[bbuy_products][0]]]).
+
+Difference: 2 mins
+
+Store size:
+index         shard prirep state     docs   store ip         node
+bbuy_products 0     p      STARTED 423938 421.9mb 172.18.0.5 opensearch-node3
+bbuy_products 0     r      STARTED 423938 426.2mb 172.18.0.7 opensearch-node2
+bbuy_products 0     r      STARTED 423938 426.5mb 172.18.0.8 opensearch-node1
+bbuy_products 1     p      STARTED 425833 422.6mb 172.18.0.7 opensearch-node2
+bbuy_products 1     r      STARTED 425833 420.4mb 172.18.0.5 opensearch-node3
+bbuy_products 1     r      STARTED 425833 420.4mb 172.18.0.8 opensearch-node1
+bbuy_products 2     p      STARTED 425306 421.5mb 172.18.0.8 opensearch-node1
+bbuy_products 2     r      STARTED 425306 427.9mb 172.18.0.5 opensearch-node3
+bbuy_products 2     r      STARTED 425306 427.9mb 172.18.0.7 opensearch-node2
+
+
+Query rate with 2 number_of_replicas: 163/sec
+
