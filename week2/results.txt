@@ -1,0 +1,27 @@
+Level 1
+
+Doc indexing rate ~3.18k/sec
+
+Query rate ~82/sec
+
+
+
+Level 2
+
+CPU: 2, RAM: 4
+
+Doc indexing rate ~5.6k/sec
+
+Query rate ~168/sec
+
+
+
+Level 3
+
+CPU: 1, RAM: 2
+
+Doc indexing rate ~1.5k/sec
+
+Query rate ~26/sec
+
+Also received some read timeouts from ES
